@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Heitor Montagnini</title>
+  </head>
+  <body>
+    <section class="header_bio" id="home">
+      <div class="container">
+        <header>
+          <nav class="menu_desktop">
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <div class="menu_icon" menu_icon>
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+          <nav class="menu_mobile desactive_menu" menu_mobile>
+            <div class="close_menu" closeButtonMenu>
+              <ion-icon name="close-outline"></ion-icon>
+            </div>
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </header>
+        <div class="bio">
+          <div class="images_book">
+            <audio src="media/sound_page.mp3"></audio>
+            <img
+              src="media/park-book-1.png"
+              alt="book"
+              coverStatic
+              onclick="openBook()"
+            />
+            <img
+              src="media/park-book.gif"
+              alt="book"
+              class="desactive"
+              openingBook
+            />
+            <img
+              src="media/park-book-final.png"
+              alt="book"
+              class="desactive"
+              pageStatic
+            />
+            <img
+              src="media/park-book-reverse.gif"
+              alt="book"
+              class="desactive"
+              reverseBook
+            />
+          </div>
+          <div class="bio_content">
+            <h2>Knowledge of<br />HEITOR MONTAGNINI</h2>
+            <h3>Click on the book and see about me</h3>
+            <p>
+              In this book I tell a brief summary about my trajectory in the world of programming, and you can learn even more about me and about my work by clicking on this contact button. Give me what you know and I'll give you what I know, remember that the best part of delivering one's own knowledge is that neither party loses.
+            </p>
+            <button><a href="#contact">Contact</a></button>
+          </div>
+          <!--bio_content-->
+        </div>
+        <!--bio-->
+      </div>
+      <!--container-->
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2>Welcome to my portfolio</h2>
+        <div class="creative_info">
+          <div class="info_content" data-anime="left">
+            <h3>The search for <br /><span>creative solutions</span></h3>
+            <p>
+              Aiming at the best user experience, I seek to carry out projects based on a creative and responsive design, studying the client's objectives in depth and solving it in the most pleasant way possible through lines of code.
+            </p>
+            <a href="https://github.com/heitor2002?tab=repositories"
+              ><button>View GITHUB</button></a
+            >
+          </div>
+          <img src="media/rocket.jpg" alt="rocket" data-anime="bottom" />
+        </div>
+        <!--creative_info-->
+        <div class="projects" data-anime="top">
+          <h2>Some projects</h2>
+          <ul listProjects>
+            <li class="card_project">
+              <noscript>Activate JS to see projects</noscript>
+            </li>
+          </ul>
+        </div>
+        <!--projects-->
+      </div>
+      <!--container-->
+    </section>
+
+    <section class="avatar" id="avatar">
+      <div class="container">
+        <div class="character" data-anime="left">
+          <img src="media/avatar-gif.gif" alt="Heitor" />
+          <div class="info_avatar">
+            <h2>Heitor Montagnini</h2>
+
+            <ul infoAvatar="infoAvatar"></ul>
+          </div>
+          <!--info_avatar-->
+        </div>
+        <!--characterr-->
+        <div class="progress_bar" data-anime="left">
+          <span>Lv 12</span>
+          <div class="bar">
+            <div class="progress"></div>
+          </div>
+          <!--bar-->
+        </div>
+        <!--progress_bar-->
+        <div class="description_skills">
+          <div class="description" data-anime="left">
+            <h2>First contact with <span>programming</span></h2>
+            <p>
+              At the age of 13 I started my journey in programming, initially programming lego robots using Lego NXT. During high school the robots began to be programmed using Arduino, where I had the first contact with the C++ language. At the end of high school, I was interested in front-end web development, because in it I saw the opportunity to solve problems, boost my creative power and level up every day.
+            </p>
+          </div>
+          <!--description-->
+          <div class="skills" skills="skillsPoints" data-anime="bottom"></div>
+          <!--skills-->
+        </div>
+        <!--description_skills-->
+      </div>
+      <!--container-->
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container" data-anime="top">
+        <div class="info_contact">
+          <h3>Contact</h3>
+          <p>
+            You want to know a little more about my work? Contact me and visit my social networks. Don't forget to send me an email, let's build your dream, together.
+          </p>
+          <div class="mail">
+            <div class="mail_icon"><ion-icon name="mail-outline"></ion-icon></div>
+            <p id="email">montagnini.heitor@gmail.com</p>
+          </div>
+        </div>
+        <div class="info_icons">
+          <a href="https://github.com/heitor2002"
+            ><div class="github_icon">
+              <ion-icon name="logo-github"></ion-icon></div
+          ></a>
+          <a href="https://www.instagram.com/heitormontagnini/"
+            ><div class="instagram_icon">
+              <ion-icon name="logo-instagram"></ion-icon></div
+          ></a>
+          <a href="https://www.linkedin.com/in/heitor-montagnini-03438a210/"
+            ><div class="linkedin_icon">
+              <ion-icon name="logo-linkedin"></ion-icon></div
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section class="page_book" pageBook="pageBook">
+      <div class="container">
+        <div class="page">
+          <div class="close-page-button" onclick="closeBook()">
+            <div prev="close-page">
+              <ion-icon name="close-outline"></ion-icon>
+            </div>
+          </div>
+
+          <h2>Heitor Montagnini</h2>
+          <p>
+            Brazilian born in a small town of just over 20,000 inhabitants, My name is Heitor Montagnini and I'll tell you a little about me. I am 20 years old and since I was a child I am fascinated by the creative power of the human being; in childhood I wrote short stories and was passionate about drawings, which made me arouse an even greater curiosity for the design of things.
+          </p>
+          <img
+            src="https://ichef.bbci.co.uk/images/ic/1280xn/p06s0lys.jpg"
+            alt=""
+          />
+          <p>
+            On weekends I visited gaming sites that served as an opening for my interest in web design, however, I had no instruction to dive into this programming universe. It was when at school I discovered robotics, which allowed me to learn a little more about logic as a method of solving problems, since it was necessary to build small ones for lego and program that would solve the challenges.
+          </p>
+          <p>In high school I finally had access to a programming language, this time C++, a language used in Arduino. From this, I decided to invest in the web and delve into front-end development. I worked as an administrative assistant in a health company and started using this money as an investment for my future, and today I seek to know something new every day.</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container"><span>Todos os direitos reservados</span></div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="js/functions.js"></script>
+    <script src="js/completeinfo.js"></script>
+  </body>
+</html>

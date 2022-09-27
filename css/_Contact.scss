@@ -1,0 +1,66 @@
+section.contact{
+    padding: 50px 0;
+    background-color: $background-grey;
+    .container{
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+        .info_contact{
+            width: 100%;
+            max-width: 500px;
+            padding: 0 2%;
+            color: white;
+            h3{
+                font-size: 5rem;
+            }
+            p{
+                margin-top: 30px;
+                font-size: 1rem;
+                color: #ccc;
+            }
+            .mail{
+                margin-top: 20px;
+                border: 1px solid $dark-purble;
+                border-radius: 8px;
+                width: 100%;
+                max-width: 300px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                cursor: pointer;
+                transition: .3s;
+                &:hover{
+                    transform: scale(1.03);
+                    background-color: rgb(27, 27, 27);
+                    border: 1px solid transparent;
+                    box-shadow: 2px 5px 2px 2px rgba(0, 0, 0, .6);
+                }
+                p{
+                    margin: 0;
+                }
+                .mail_icon{
+                    font-size: 2rem;
+                    margin-top: 5px;
+                    ion-icon{
+                        border-right: 1px solid $dark-purble;
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+        .info_icons{
+            margin-top: 30px;
+            display: flex;
+            justify-content: flex-end;
+            a{
+                color: white;
+                font-size: 2rem;
+                margin-left: 50px;
+                transition: .3s;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}

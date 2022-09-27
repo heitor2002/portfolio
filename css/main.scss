@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+$font-game: 'Orbitron', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+$dark-letter: #2A2727;
+$dark-purble: rgb(10, 4, 17);
+$purple-color: rgb(117, 66, 139);
+$light-purple: rgba(117, 66, 139, .3);
+$background-grey: rgb(41, 40, 40);
+$secondary-color: rgb(85, 66, 139);
+
+//animation fade//
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-roboto;
+    // overflow-x: hidden;
+}
+
+body, html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #504539;
+    border-radius: 10px;
+  }
+
+[data-anime] {
+    opacity: 0;
+    transition: .5s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-30px, 0, 0);
+}
+
+[data-anime="bottom"] {
+    transform: translate3d(0, -30px, 0);
+}
+
+[data-anime="top"] {
+    transform: translate3d(0, 30px, 0);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0,0,0)
+}
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.desactive{
+    display: none
+}
+
+@import 'Header';
+@import 'Portfolio';
+@import 'Avatar';
+@import 'Contact';
+@import 'Footer';
