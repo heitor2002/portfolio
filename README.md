@@ -30,11 +30,11 @@ https://www.linkedin.com/in/heitor-montagnini-03438a210/
 
 # Heitor Montagnini
 
-In this project I present my portfolio, disseminating my work and allowing all visitors to visualize a little of my knowledge. From old to current projects, I also show some designs made in Adobe XD.The portfolio also tells a little of my life and how I got into the world of programming, and I aim primarily to enhance my creative skills.
+In this project I present my portfolio, disseminating my work and allowing all visitors to visualize a little of my knowledge. From old to current projects, I also show some designs made in Adobe XD.The portfolio also tells a little of my life and how I got into the world of programming, and I aim primarily to enhance my creative skills. 
 
 ## About the project
 
-
+Single page with several clickable elements, where menu navigation takes place on the same page using HTML.The possibilities of animations using gifs and pixelated images were explored, which gave the project an appearance of 8-bit games. The portfolio has buttons that direct the page to other projects and to my social networks, in addition to my email to contact.
 
 ## Front-end
 
@@ -42,3 +42,15 @@ In this project I present my portfolio, disseminating my work and allowing all v
 - CSS3
 - SASS
 - JavaScript
+
+The project can be accessed by link: url//www.mysite.com or by starting the index file available in the project folder.
+
+## Portfolio objective
+
+The portfolio aims to disseminate my work and services, and mainly enrich my knowledge in the area of programming, since it is an unlimited universe and full of knowledge that fascinate those who view a simple computer or smartphone screen.
+
+## Author
+
+Heitor Correia Montagnini Santos
+
+https://www.linkedin.com/in/heitor-montagnini-03438a210/
