@@ -1,5 +1,7 @@
 # Heitor Montagnini
 
+https://github.com/heitor2002/portfolio/blob/main/LICENSE
+
 Neste projeto eu apresento meu portfólio, divulgando meu trabalho e possibilitando que todos os visitantes visualizem um pouco do meu conhecimento. Desde projetos antigos até os mais atuais, além disso, mostro alguns designs feitos no Adobe XD. O portfólio também conta um pouco da minha vida e como entrei no mundo da programação, e tenho por objetivo principalmente potencializar as minhas habilidades criativas.
 
 ## Sobre o projeto
