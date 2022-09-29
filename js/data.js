@@ -17,7 +17,7 @@ const projects = [
   {
     name: "Cart Project",
     content: "Cart system using React.",
-    link: "#",
+    link: "https://github.com/heitor2002/cart-project",
     image:
       "https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
   },
