@@ -44,7 +44,7 @@ const projects = [
   {
     name: "CS:GO Explained",
     content: "My first hosted website, based on the game Counter-Strike: Global Offensive.",
-    link: "https://www.behance.net/gallery/132664709/Projeto-web-Tema-Jardinagem",
+    link: "https://heitor2002.github.io/csgoexplained/",
     image:
       "https://images.unsplash.com/photo-1634451451412-040b7459284c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
   },
