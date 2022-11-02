@@ -16,7 +16,7 @@ O portfólio possui botões que direcionam a página para outros projetos e para
 - SASS
 - JavaScript
 
-O projeto pode ser acessado pelo link: url//www.meusite.com ou iniciando o arquivo index disponível na pasta do projeto.
+O projeto pode ser acessado pelo link: https://heitor2002.github.io/portfolio/ ou iniciando o arquivo index disponível na pasta do projeto.
 
 ## Objetivo do portfólio
 
@@ -45,7 +45,7 @@ Single page with several clickable elements, where menu navigation takes place o
 - SASS
 - JavaScript
 
-The project can be accessed by link: url//www.mysite.com or by starting the index file available in the project folder.
+The project can be accessed by link: https://heitor2002.github.io/portfolio/ or by starting the index file available in the project folder.
 
 ## Portfolio objective
 
