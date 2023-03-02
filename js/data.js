@@ -22,6 +22,20 @@ const projects = [
       "https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
   },
   {
+    name: "Login Project",
+    content: "Login system using TypeScript, ReactJS, ContextAPI, RestAPI.",
+    link: "https://github.com/heitor2002/sistema-login",
+    image:
+      "https://files.tecnoblog.net/wp-content/uploads/2019/06/2fa.jpg",
+  },
+  {
+    name: "Sales Manager",
+    content: "Sales manager using ReactJS and RestAPI.",
+    link: "https://github.com/heitor2002/gerenciador-de-vendas",
+    image:
+      "https://network.grupoabril.com.br/wp-content/uploads/sites/4/2016/12/administrac3a7c3a3o1.jpg",
+  },
+  {
     name: "Shoes e-commerce",
     content: "Sneaker store e-commerce web design.",
     link: "https://www.behance.net/gallery/132844099/Projeto-Web-Tema-E-commerce-shoes",
