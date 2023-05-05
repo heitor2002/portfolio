@@ -81,19 +81,31 @@ const projects = [
 const skills = [
   {
     title: "HTML5",
-    points: 83,
+    points: 85,
   },
   {
     title: "CSS3",
-    points: 62,
+    points: 85,
   },
   {
     title: "JavaScript",
-    points: 53,
+    points: 63,
   },
   {
     title: "React",
-    points: 31,
+    points: 63,
+  },
+  {
+    title: "TypeScript",
+    points: 52,
+  },
+  {
+    title: "Next.js",
+    points: 52,
+  },
+  {
+    title: "Node.js",
+    points: 35,
   },
   {
     title: "Portuguese",
@@ -105,6 +117,6 @@ const skills = [
   },
   {
     title: "SASS",
-    points: 62,
+    points: 75,
   },
 ];
